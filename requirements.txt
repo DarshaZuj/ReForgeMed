@@ -7,7 +7,7 @@ tqdm==4.67.1
 requests==2.32.3
 
 # PyTorch (CPU version for Streamlit Cloud)
-torch==2.3.1
+torch==2.5.1
 
 # NLP and ML
 sentence-transformers==2.2.2
