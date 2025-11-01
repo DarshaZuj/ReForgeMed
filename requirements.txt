@@ -1,91 +1,51 @@
 # Core dependencies
 python-dotenv==1.0.1
-pandas>=2.0.0
-numpy>=1.21.0
-scikit-learn>=1.0.0
-tqdm>=4.65.0
-requests>=2.28.0
+pandas==2.2.3
+numpy==1.26.4
+scikit-learn==1.5.2
+tqdm==4.67.1
+requests==2.32.3
 
-# PyTorch (CPU version for compatibility with Streamlit Cloud)
-torch>=2.0.0
+# PyTorch (CPU version for Streamlit Cloud)
+torch==2.3.1
 
 # NLP and ML
-sentence-transformers>=2.2.0
-transformers>=4.30.0
-tokenizers>=0.13.0
+sentence-transformers==2.2.2
+transformers==4.42.4
+tokenizers==0.19.1
 
 # Graph processing
-networkx>=3.0.0
+networkx==3.3
 
 # Web app
-streamlit>=1.24.0
-streamlit-option-menu>=0.3.6
+streamlit==1.37.0
+streamlit-option-menu==0.3.6
 
-# Data processing
-pyyaml>=6.0.0
-pydantic>=2.0.0
+# Data processing and validation
+pyyaml==6.0.1
+pydantic==2.8.2
+python-dateutil==2.9.0
+typing-extensions==4.12.2
 
-# File handling
-pyyaml>=6.0.0
+# Visualization
+matplotlib==3.9.2
+plotly==5.24.0
 
-# For model serialization
-joblib>=1.2.0
+# Utility
+joblib==1.4.2
+urllib3==2.2.3
+wget==3.2
+scipy==1.13.1
+loguru==0.7.2
+pathlib==1.0.1
+pyarrow==17.0.0
+fastparquet==2024.5.0
+dask==2024.6.2
+pandas-profiling==3.6.6
+orjson==3.10.6
+rich==13.9.1
+filetype==1.2.0
+python-magic==0.4.27
 
-# For data visualization
-matplotlib>=3.5.0
-plotly>=5.13.0
-
-# For progress bars
-tqdm>=4.65.0
-
-# For HTTP requests
-urllib3>=1.26.0
-
-# For data validation
-pydantic>=2.0.0
-
-# For file downloads
-wget>=3.2
-
-# For data manipulation
-scipy>=1.9.0
-
-# For logging
-loguru>=0.6.0
-
-# For file path handling (cross-platform compatibility)
-pathlib>=1.0.1
-
-# For handling different file formats
-pyarrow>=8.0.0
-fastparquet>=2022.11.0
-
-# For working with primekg
+# Therapeutics Data Commons
 PyTDC==0.3.9
-
-# For handling large datasets efficiently
-dask>=2022.11.0
-
-# For better performance with pandas
-pandas-profiling>=3.6.0
-
-# For handling date and time
-python-dateutil>=2.8.2
-
-# For handling environment variables
-python-dotenv>=0.21.0
-
-# For type hints (if using Python < 3.9)
-typing-extensions>=4.4.0
-
-# For handling JSON
-orjson>=3.8.0
-
-# For better error messages
-rich>=12.5.1
-
-# For handling file uploads
-filetype>=1.2.0
-
-# For handling compressed files
-python-magic>=0.4.27
